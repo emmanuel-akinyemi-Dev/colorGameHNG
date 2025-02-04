@@ -15,8 +15,8 @@ h1 {
 }
 
 .color-box {
-  width: 150px;
-  height: 150px;
+  width: 110px;
+  height: 110px;
   margin: 20px auto;
   border-radius: 8px;
   border: 2px solid #333;
@@ -31,8 +31,8 @@ h1 {
 }
 
 .color-option {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: none;
   cursor: pointer;
   border-radius: 8px;
