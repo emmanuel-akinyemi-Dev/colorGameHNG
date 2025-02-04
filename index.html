@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Guess Game</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    
+    <div id="main" >
+      <h1>Color Guess Game</h1>
+      <p data-testid="gameInstructions">Guess the correct color!</p>
+      <!-- Timer Display -->
+      <p>Time Left: <span data-testid="timer" id="timer">10</span> seconds</p>
+
+      <!-- Target Color Display -->
+      <div class="color-box" data-testid="colorBox"></div>
+
+      <!-- Color Options -->
+      <div class="options-container">
+        <button class="color-option" data-testid="colorOption"></button>
+        <button class="color-option" data-testid="colorOption"></button>
+        <button class="color-option" data-testid="colorOption"></button>
+        <button class="color-option" data-testid="colorOption"></button>
+        <button class="color-option" data-testid="colorOption"></button>
+        <button class="color-option" data-testid="colorOption"></button>
+      </div>
+
+      <!-- Game Status -->
+      <p data-testid="gameStatus" class="game-status"></p>
+
+      <!-- Score Counter -->
+      <p>Score: <span data-testid="score" class="score">0</span></p>
+
+      <!-- New Game Button -->
+      <button id="gameRulesButton" data-testid="gameRulesButton">
+        Game Rules
+      </button>
+      <button class="newGameButton" data-testid="newGameButton">New Game</button>
+    </div>
+    <div id="gameOver" data-testid="gameOver">
+        <p>Game Over</p>
+        <p>Score: <span data-testid="score" class="score">0</span></p>
+        <button class="newGameButton" data-testid="newGameButton">New Game</button>
+    </div>
+    <script src="/colorgame/scripts/script.js"></script>
+  </body>
+</html>
